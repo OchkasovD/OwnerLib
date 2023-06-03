@@ -8,7 +8,7 @@ import org.aeonbits.owner.Config;
 })
 public interface WebDriverConfig extends Config {
     @Key("browserName")
-    @DefaultValue("FIREFOX")
+    @DefaultValue("CHROME")
     String getBrowserName();
     @Key("browserVersion")
     String getBrowserVersion();
