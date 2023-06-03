@@ -8,12 +8,10 @@ import org.aeonbits.owner.Config;
 })
 public interface WebDriverConfig extends Config {
     @Key("browserName")
-    @DefaultValue("CHROME")
+    @DefaultValue("FIREFOX")
     String getBrowserName();
-
     @Key("browserVersion")
     String getBrowserVersion();
-
     @Key("baseUrl")
     @DefaultValue("https://github.com/")
     String getBaseUrl();
