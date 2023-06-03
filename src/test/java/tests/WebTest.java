@@ -9,7 +9,7 @@ public class WebTest extends TestBase {
     @Test
     void gitTest() {
 
-        open("");
+        open("/");
         $(Selectors.byTagAndText("button", "Solutions")).hover();
         $(Selectors.byTagAndText("a", "Enterprise")).click();
         $("h4.h6-mktg").shouldHave(text("GitHub for enterprises"));
